@@ -18,7 +18,7 @@ idna==3.4
 importlib-metadata==6.6.0
 Jinja2==3.1.2
 jsonschema==4.17.3
-langchain==0.0.198
+langchain==0.1.6
 langchainplus-sdk==0.0.8
 markdown-it-py==3.0.0
 MarkupSafe==2.1.3
