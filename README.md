@@ -28,7 +28,7 @@ Please see the `requirements.txt` file for the exact versions of these dependenc
 To install the application, first clone this repository:
 
 ```bash
-git clone https://github.com/samz905/chat-with-pdfs.git
+git clone https://github.com/Eross220/chatPDF_Langchain.git
 ```
 
 Then, navigate to the project directory and install the dependencies:
