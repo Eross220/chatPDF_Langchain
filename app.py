@@ -8,7 +8,6 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 
-
 def main():
     load_dotenv()
     st.set_page_config(page_title="Ask Your PDF", page_icon="🗂️")
@@ -39,6 +38,7 @@ def main():
         # Build the vector store
         knowledge_base = FAISS.from_texts(chunks, embeddings)
 
+        print("aaaa")
         # Chat functionality
         user_input = st.text_input("Ask a question about your PDF:")
         if user_input:
